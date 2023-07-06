@@ -38,20 +38,15 @@ print("Your mission is to find the treasure.")
 
 #Write your code below this line 👇
 
-direction = input("You are at a crossroad 🚦, where do you want to go 🚶? 
-Left ⬅️ or Right? ➡️ \n").lower()
+direction = input("You are at a crossroad 🚦, where do you want to go 🚶? Left ⬅️ or Right? ➡️ \n").lower()
 if direction != "left":
   print("Fall into a hole. GAME OVER!💀\n")
 else:
-  action = input('You have arrived at a lake. There is an island in the 
-middle of the lake 🏝. Type "wait" to wait for a boat ⛴. Type "swim" to 
-swim across🏊‍♂️. \n').lower()
+  action = input('You have arrived at a lake. There is an island in the middle of the lake 🏝. Type "wait" to wait for a boat ⛴. Type "swim" to swim across🏊‍♂️. \n').lower()
   if action != "wait":
     print("Attacked by a trout 🐟. Game Over!💀\n")
   else:
-    door = input("You arrive at the island unharmed. There is a house with 
-3 doors 🏡. One red 🔴, one yellow 🟡 and one blue 🔵. Which colour do you 
-choose? \n").lower()
+    door = input("You arrive at the island unharmed. There is a house with 3 doors 🏡. One red 🔴, one yellow 🟡 and one blue 🔵. Which colour do you choose? \n").lower()
     if door == 'red':
       print("It's a room full of fire 🔥. Game Over!💀\n")
     elif door == 'yellow':
